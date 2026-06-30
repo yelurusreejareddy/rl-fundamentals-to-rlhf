@@ -19,7 +19,7 @@ environment. Compared five random policies against the optimal policy derived th
 value iteration, with histograms showing goal-reach rates across 100 runs of 10,000
 episodes each.
 
-Files: frozen_lake_value_iteration.ipynb
+Files: frozen_lake_value_iteration.ipynb, frozen_lake_report.pdf
 
 ### Snake Game - Q-Learning
 Implemented an epsilon-greedy Q-learning agent on a custom Snake environment with a
@@ -27,14 +27,14 @@ Implemented an epsilon-greedy Q-learning agent on a custom Snake environment wit
 Ran experiments across five epsilon values (0.1 to 0.9) and plotted returns, apples
 eaten, stops, and unique states visited.
 
-Files: Agent.py, QLearning.py, SnakeEnv.py, qtable_2025_9.csv
+Files: Agent.py, QLearning.py, SnakeEnv.py, qtable_2025_9.csv, snake_qlearning_report.pdf
 
 ### Atari Pong - DQN
 Implemented Deep Q-Network with experience replay and a separate target network to
 stabilize training on Atari Pong. Built the convolutional network architecture and
 replay buffer from scratch, then evaluated the trained policy with episode rendering.
 
-Files: Pong_train.ipynb, Pong_eval.ipynb, dqn_core.py
+Files: Pong_train.ipynb, Pong_eval.ipynb, dqn_core.py, atari_pong_dqn_report.pdf
 
 ### RLHF with GPT-2
 Implemented the full three-step RLHF pipeline on GPT-2 using Databricks Dolly-15k:
@@ -42,7 +42,7 @@ Supervised Fine-Tuning, Reward Model Training, and PPO-based policy optimization
 Ran follow-up experiments on generation parameters, prompt engineering strategies,
 and training duration to improve output quality.
 
-Files: rlhf_gpt2_pipeline.ipynb, rlhf_gpt2_experiments.ipynb
+Files: rlhf_gpt2_pipeline.ipynb, rlhf_gpt2_experiments.ipynb, ppo_train_prompts.py, rlhf_gpt2_report.pdf
 
 ## Libraries
 
