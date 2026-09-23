@@ -30,9 +30,10 @@ eaten, stops, and unique states visited.
 Files: Agent.py, QLearning.py, SnakeEnv.py, qtable_2025_9.csv, snake_qlearning_report.pdf
 
 ### Atari Pong - DQN
-Implemented Deep Q-Network with experience replay and a separate target network to
-stabilize training on Atari Pong. Built the convolutional network architecture and
-replay buffer from scratch, then evaluated the trained policy with episode rendering.
+Continued training a Deep Q-Network on Atari Pong from a provided 700k-step checkpoint
+and replay buffer. Implemented epsilon-greedy exploration, the target-network Q-learning
+update with Huber loss, and the training loop, using the course's network and replay
+buffer code in dqn_core.py. Evaluated checkpoints and recorded the best agent playing.
 
 Files: Pong_train.ipynb, Pong_eval.ipynb, dqn_core.py, atari_pong_dqn_report.pdf
 
